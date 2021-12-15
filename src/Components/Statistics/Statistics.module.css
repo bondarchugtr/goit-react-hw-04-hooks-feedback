@@ -1,0 +1,8 @@
+.statistics__list {
+  text-align: start;
+}
+
+.item__statistics:not(:last-child) {
+  margin-bottom: 10px;
+  font-family: 15px;
+}

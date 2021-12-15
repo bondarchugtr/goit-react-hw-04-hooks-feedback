@@ -1,0 +1,30 @@
+.button__container {
+  display: flex;
+  justify-content: center;
+  border: orchid;
+}
+
+.button__feedback {
+  border-color: rgb(197, 155, 155);
+  border-radius: 6%;
+  border-width: 1px;
+  padding: 5px 8px;
+  text-rendering: auto;
+  color: initial;
+  display: inline-block;
+  box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+  width: 120px;
+}
+.button__feedback:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button__feedback.good {
+  background-color: chartreuse;
+}
+.button__feedback.neutral {
+  background-color: rgb(241, 238, 15);
+}
+.button__feedback.bad {
+  background-color: rgb(221, 56, 15);
+}
